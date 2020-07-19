@@ -219,8 +219,8 @@ def db_seed():
     # password=generate_password_hash(password,method='sha256'))
     admin = User(first_name='Null',
                  last_name='Null',
-                 email='admin@toilet.org',
-                 password='password',
+                 email='admin@admin.admin',
+                 password='admin',
                  is_authenticated='True')
                  # password=generate_password_hash(password,method='sha256'))
 
